@@ -13,70 +13,98 @@
 </head>
 <body>
     <header class="header">
-        <h1><i class="fa-solid fa-cat animated-icon"></i><span class="nome">Gabriela Neddef</span></h1>
-        <nav>
+        <h1>
+            
+        </h1>
+        <button class="menu-toggle" aria-label="Toggle menu">Menu</button>
+        <nav class="nav-menu">
             <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#objetivos">Objetivos</a></li>
-                <li><a href="#experiencia">Experiências</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre"><i class="fas fa-user"></i> Sobre Mim</a></li>
+                <li><a href="#ObjetivosProfissionais"><i class="fas fa-bullseye"></i> Objetivos</a></li>
+                <li><a href="#ExperiênciaProfissional"><i class="fas fa-briefcase"></i> Experiências</a></li>
+                <li><a href="#CursosExtracurriculares"><i class="fas fa-graduation-cap"></i> Cursos</a></li>
+                <li> <a href="#Projetos"> <i class="fas fa-code"></i> Projetos</a></li>
+                <li><a href="#Contato"><i class="fas fa-envelope"></i> Contato</a></li>
+                
+              
             </ul>
         </nav>
     </header>
+    
 
-    <main>
-        <section id="sobre" class="sobre">
-            <div class="foto-container">
-                <img src="minhafoto.jpg" alt="Foto de Gabriela" class="foto-perfil">
+    <section id="sobre" class="sobre">
+        <div class="foto-container">
+            <img src="minhafoto.png" alt="Foto de Gabriela" class="fotoperfil">
+        </div>
+        <div class="sobre-texto">
+            <h2 class="sobre2"><i class="fa-solid fa-cat animated-icon"></i>Gabriela Neddef</h2>
+            <p class="texto1">Sou de Sarandi, Rio Grande do Sul. Tenho 19 anos. Estou no 2º semestre de ciência da computação. </p>
+            <p class="texto1">Gosto muito da área da computação e estou sempre em busca de novos desafios e mais aprendizado.</p>
+        </div>
+    </section>
+    
+
+    <section id="ObjetivosProfissionais" class="Objetivos">
+        <h2 class="objetivos2">Objetivos Profissionais</h2>
+        <p class="texto1">Buscando uma posição como desenvolvedor Java júnior em uma empresa dinâmica, onde posso aplicar e obter mais conhecimentos em programação orientada a objetos e frameworks como Spring para contribuir no desenvolvimento de aplicações robustas.</p>
+    </section>
+
+    <section id="ExperiênciaProfissional" class="experiencia">
+        <h2 class="experiencia2">Experiência Profissional</h2>
+        <ul>
+            <li class="texto1">Boutique Maria Flor - Vendedora - novembro/2023-agosto/2024.</li>
+            <li class="texto1">Creche Sonho de Infância - Secretária - março/2023-outubro/2023.</li>
+            <li class="texto1">Studio Adri Marcolan - Edição de fotos - outubro/2022-fevereiro/2023.</li>
+        </ul>
+    </section>
+    
+    <section id="CursosExtracurriculares" class="cursos">
+        <h2 class="cursos2">Cursos Extracurriculares</h2>
+        <div class="cursos-container">
+            <div class="curso">
+                <i class="fab fa-python"></i>
+                <p class="titulo"><strong>Python -</strong></p>
+                <p> Algoritmos, estruturas de dados, fundamentos, orientação a objetos, programação funcional...</p>
             </div>
-            <div class="sobre-texto">
-                <h2 class="sobre2">Sobre Mim</h2>
-                <p>Olá! Meu nome é Gabriela, sou de Sarandi, Rio Grande do Sul. Tenho 19 anos.</p>
-                <p>Gosto muito de tecnologia e design. Nos meus tempos livres, gosto de assistir filmes e escutar música. Estou sempre em busca de novos desafios e quero aprender cada vez mais.</p>
+            <div class="curso">
+                <i class="fab fa-java"></i>
+                <p class="titulo"><strong>Java -</strong></p>
+                <p> Orientação a objetos, UML, JDBC, JavaFX, Spring Boot, JPA, Hibernate, MySQL, MongoDB...</p>
             </div>
-        </section>
-        
-
-        <section id="objetivos" class="objetivos">
-            <h2 class="objetivos2">Objetivos Profissionais</h2>
-            <p>Meu principal objetivo profissional é me aprofundar nas áreas de tecnologia e design, buscando oportunidades que me permitam aplicar e expandir meu conhecimento em HTML e CSS. Desejo trabalhar em projetos desafiadores que estimulem a minha criatividade e me ajudem a desenvolver soluções inovadoras. Estou interessada em colaborar em equipes dinâmicas onde possa aprender com profissionais experientes e contribuir para a criação de produtos impactantes.</p>
-            <p>Pretendo ter mais conhecimento por meio de cursos e workshops, sempre em busca de novas habilidades que complementem minha carreira. Recentemente, comecei a estudar Java e também me interesso pela área, o que me motiva ainda mais a explorar novas possibilidades no campo da tecnologia.</p>
-        </section>
-
-        <section id="experiencia" class="experiencia">
-            <h2 class = "experiencia2 ">Experiência Profissional</h2>
-            <ul>
-                <li><strong>Boutique Maria Flor</strong> - Vendedora - novembro/2023 a agosto/2024.</li>
-                <li><strong>Creche Sonho de Infância</strong> - Secretária - março/2023 a outubro/2023.</li>
-                <li><strong>Studio Adri Marcolan</strong> - Edição de fotos - outubro/2022 a fevereiro/2023.</li>
-            </ul>
-        </section>
-        
-        <section id="cursos" class="cursos">
-            <h2 class="cursos2">Cursos Extracurriculares</h2>
-            <ul>
-                <li><strong>Python</strong> - Algoritmos, estruturas de dados, fundamentos, orientação a objetos, programação funcional.</li>
-                <li><strong>Java</strong> - Orientação a objetos, UML, JDBC, JavaFX, Spring Boot, JPA, Hibernate, MySQL, MongoDB.</li>
-                <li><strong>Open English</strong> - setembro/2023.</li>
-            </ul>
-        </section>
-
-        <section id="contato" class="contato">
-            <h2 class="contato2">Contato</h2>
-                <div class="social-icons">
-                    <a href="https://linkedin.com/in/gabriela-neddef-0b3190300" class="btn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/GabrielaNeddef" class="btn" target="_blank"><i class="fab fa-github"></i> </a>
-                    <a href="https://wa.me/54996069928" class="btn" target="_blank"><i class="fab fa-whatsapp" ></i></a>
-                    <a href="mailto:gabineddef@gmail.com" class="btn" target="_blank"><i class="fas fa-envelope" ></i></a>
-                    
-                </div>
+            <div class="curso">
+                <i class="fas fa-language"></i>
+                <p class="titulo"><strong>Open English -</strong></p>
+                <p> setembro/2023.</p>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+    
+
+    <section id="Projetos" class="projetos">
+        <h2 class="projetos2">Projetos</h2>
+        <ul>
+            <li><a href="https://github.com/GabrielaNeddef/CadVeiculos-Java.git" class="btn2" target="_blank">Cadastro de veículos - Java</a></li>
+            <li><a href="https://github.com/GabrielaNeddef/CadBiblioteca-Java.git" class="btn2" target="_blank">Cadastro de bibliotecas - Java</a></li>
+            <li><a href="https://github.com/GabrielaNeddef/JogoAdivinha-o-Java.git" class="btn2" target="_blank">Jogo adivinhação - Java</a></li>
+        </ul>
+    </section>
+    
+
+    <section id="Contato" class="contato">
+        <h2  class="contato2" >Contato:</h2>
+        <ul class="social-icons">
+            <li><a href="https://linkedin.com/in/gabriela-neddef-0b3190300" class="btn" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li> <a href="https://github.com/GabrielaNeddef" class="btn" target="_blank"><i class="fab fa-github"></i> </a></li>
+            <li><a href="https://wa.me/54996069928" class="btn" target="_blank"><i class="fab fa-whatsapp" ></i></a></li>
+            <li><a href="mailto:gabineddef@gmail.com" class="btn" target="_blank"><i class="fas fa-envelope" ></i></a></li>
+        </ul>
+    </section>
 
     <footer>
         <p>&copy; 2024 Gabriela Neddef. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
